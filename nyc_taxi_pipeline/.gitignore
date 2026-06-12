@@ -1,0 +1,49 @@
+# =====================
+# DBT artifacts
+# =====================
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+# compiled models
+compiled/
+run/
+
+# =====================
+# Python / venv
+# =====================
+.venv3/
+.env
+__pycache__/
+*.pyc
+*.pyo
+
+# =====================
+# Credentials / secrets
+# =====================
+*.json
+service-account.json
+credentials.json
+
+# dbt profiles (VERY IMPORTANT)
+~/.dbt/profiles.yml
+
+# =====================
+# OS files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDEs
+# =====================
+.vscode/
+.idea/
+
+# =====================
+# BigQuery / local exports
+# =====================
+*.csv
+*.parquet
+*.jsonl

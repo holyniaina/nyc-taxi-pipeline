@@ -1,0 +1,840 @@
+[0m14:07:50.543373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001993CD667B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019939A934D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001993E127C50>]}
+
+
+============================== 14:07:50.551099 | 5a94b1b1-a293-4560-9aca-1bcc9224c9ac ==============================
+[0m14:07:50.551099 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:07:50.551830 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init nyc_taxi', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:07:50.898831 [info ] [MainThread]: Creating dbt configuration folder at D:\Utilisateurs\niaina5\.dbt
+[0m14:07:50.914507 [debug] [MainThread]: Starter project path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\include\starter_project
+[0m14:07:51.090109 [info ] [MainThread]: 
+Your new dbt project "nyc_taxi" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:07:51.090822 [info ] [MainThread]: Setting up your profile.
+[0m14:10:29.548506 [info ] [MainThread]: Profile nyc_taxi written to D:\Utilisateurs\niaina5\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:10:29.553069 [debug] [MainThread]: Command `dbt init` succeeded at 14:10:29.552540 after 160.49 seconds
+[0m14:10:29.554227 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199509643E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199509CD010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000199508FEF10>]}
+[0m14:10:29.555411 [debug] [MainThread]: Flushing usage events
+[0m14:10:31.071534 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:16:15.435525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002434E0D67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002434ADB34D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002434F497C50>]}
+
+
+============================== 14:16:15.449248 | c8580635-6b32-43f2-b90e-4f03da72a65f ==============================
+[0m14:16:15.449248 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:16:15.450519 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:16:15.569165 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:16:15.569962 [info ] [MainThread]: python version: 3.13.14
+[0m14:16:15.570588 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:16:15.571249 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:16:30.301186 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:16:30.301816 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:16:30.302364 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:16:30.303010 [info ] [MainThread]: adapter type: bigquery
+[0m14:16:30.303444 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:16:30.304292 [info ] [MainThread]: Configuration:
+[0m14:16:30.305228 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:16:30.306226 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:16:30.307068 [info ] [MainThread]: Required dependencies:
+[0m14:16:30.307697 [debug] [MainThread]: Executing "git --help"
+[0m14:16:31.741346 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:16:31.742091 [debug] [MainThread]: STDERR: "b''"
+[0m14:16:31.742596 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:16:31.743318 [info ] [MainThread]: Connection:
+[0m14:16:31.744104 [info ] [MainThread]:   method: oauth
+[0m14:16:31.744947 [info ] [MainThread]:   database: nyc-taxi-data-pipeline
+[0m14:16:31.746152 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline
+[0m14:16:31.747520 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:16:31.748501 [info ] [MainThread]:   location: US
+[0m14:16:31.749425 [info ] [MainThread]:   priority: interactive
+[0m14:16:31.750327 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:16:31.750935 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:16:31.751451 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:16:31.751957 [info ] [MainThread]:   job_retries: 1
+[0m14:16:31.752574 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:16:31.753172 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:16:31.753840 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:16:31.754441 [info ] [MainThread]:   client_id: None
+[0m14:16:31.754985 [info ] [MainThread]:   token_uri: None
+[0m14:16:31.755596 [info ] [MainThread]:   compute_region: None
+[0m14:16:31.756147 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:16:31.756667 [info ] [MainThread]:   gcs_bucket: None
+[0m14:16:31.757171 [info ] [MainThread]:   dataproc_batch: None
+[0m14:16:31.758073 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:16:32.676135 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:16:32.676592 [debug] [MainThread]: On debug: select 1 as id
+[0m14:16:32.676994 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:16:50.482931 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-taxi-data-pipeline&j=bq:US:9a8cf8eb-40a0-445e-a6ea-9968297870ba&page=queryresults
+[0m14:16:50.487564 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:16:50.489639 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:16:50.491090 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml> not found
+
+[0m14:16:50.492576 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  The project nyc-taxi-data-pipeline has not enabled BigQuery.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:16:50.496362 [debug] [MainThread]: Command `dbt debug` failed at 14:16:50.495892 after 36.84 seconds
+[0m14:16:50.497392 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:16:50.498333 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024361D42060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024361D6DA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024361C2F790>]}
+[0m14:16:50.499313 [debug] [MainThread]: Flushing usage events
+[0m14:16:51.813790 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:17:26.572616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACEBAF67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACE87D34D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACEDE87C50>]}
+
+
+============================== 14:17:26.581367 | 33f60772-8419-4001-a2ab-4064110a1ffc ==============================
+[0m14:17:26.581367 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:17:26.582371 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:17:26.640323 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:17:26.640978 [info ] [MainThread]: python version: 3.13.14
+[0m14:17:26.641540 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:17:26.642053 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:17:37.181662 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:17:37.182494 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:17:37.183169 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:17:37.183656 [info ] [MainThread]: adapter type: bigquery
+[0m14:17:37.184127 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:17:37.184731 [info ] [MainThread]: Configuration:
+[0m14:17:37.185347 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:17:37.185761 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:17:37.186173 [info ] [MainThread]: Required dependencies:
+[0m14:17:37.186667 [debug] [MainThread]: Executing "git --help"
+[0m14:17:38.157202 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:17:38.157996 [debug] [MainThread]: STDERR: "b''"
+[0m14:17:38.158457 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:17:38.159033 [info ] [MainThread]: Connection:
+[0m14:17:38.159617 [info ] [MainThread]:   method: oauth
+[0m14:17:38.160135 [info ] [MainThread]:   database: nyc-taxi-data-pipeline
+[0m14:17:38.160628 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline
+[0m14:17:38.161174 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:17:38.162132 [info ] [MainThread]:   location: US
+[0m14:17:38.163115 [info ] [MainThread]:   priority: interactive
+[0m14:17:38.163599 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:17:38.164022 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:17:38.164393 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:17:38.164713 [info ] [MainThread]:   job_retries: 1
+[0m14:17:38.165006 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:17:38.165482 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:17:38.166255 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:17:38.166648 [info ] [MainThread]:   client_id: None
+[0m14:17:38.167099 [info ] [MainThread]:   token_uri: None
+[0m14:17:38.167471 [info ] [MainThread]:   compute_region: None
+[0m14:17:38.167818 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:17:38.168201 [info ] [MainThread]:   gcs_bucket: None
+[0m14:17:38.168534 [info ] [MainThread]:   dataproc_batch: None
+[0m14:17:38.169101 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:17:38.686137 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:17:38.686515 [debug] [MainThread]: On debug: select 1 as id
+[0m14:17:38.686834 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:17:52.297418 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-taxi-data-pipeline&j=bq:US:8e32571b-aedb-4681-9a10-609e35813b7d&page=queryresults
+[0m14:17:52.300420 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:17:52.301618 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:17:52.302509 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml> not found
+
+[0m14:17:52.303322 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  The project nyc-taxi-data-pipeline has not enabled BigQuery.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:17:52.304917 [debug] [MainThread]: Command `dbt debug` failed at 14:17:52.304713 after 27.09 seconds
+[0m14:17:52.305453 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:17:52.305912 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACFF772060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACFF79DA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002ACFF65F790>]}
+[0m14:17:52.306419 [debug] [MainThread]: Flushing usage events
+[0m14:17:53.657954 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:18:26.200356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F61AB267B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F6178234D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F61BEE3C50>]}
+
+
+============================== 14:18:26.207649 | 71a0868f-cfea-4b59-baeb-8e96d5fb4579 ==============================
+[0m14:18:26.207649 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:18:26.208413 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:18:26.262709 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:18:26.263372 [info ] [MainThread]: python version: 3.13.14
+[0m14:18:26.263880 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:18:26.264273 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:18:36.728375 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:18:36.728976 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:18:36.729420 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:18:36.729985 [info ] [MainThread]: adapter type: bigquery
+[0m14:18:36.730312 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:18:36.730701 [info ] [MainThread]: Configuration:
+[0m14:18:36.731032 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:18:36.731466 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:18:36.731964 [info ] [MainThread]: Required dependencies:
+[0m14:18:36.732465 [debug] [MainThread]: Executing "git --help"
+[0m14:18:37.724407 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:18:37.724907 [debug] [MainThread]: STDERR: "b''"
+[0m14:18:37.725211 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:18:37.725580 [info ] [MainThread]: Connection:
+[0m14:18:37.725928 [info ] [MainThread]:   method: oauth
+[0m14:18:37.726347 [info ] [MainThread]:   database: nyc-taxi-data-pipeline
+[0m14:18:37.726672 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline
+[0m14:18:37.726969 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:18:37.727313 [info ] [MainThread]:   location: US
+[0m14:18:37.727661 [info ] [MainThread]:   priority: interactive
+[0m14:18:37.728087 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:18:37.728453 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:18:37.728754 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:18:37.729063 [info ] [MainThread]:   job_retries: 1
+[0m14:18:37.729491 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:18:37.729868 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:18:37.730179 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:18:37.730552 [info ] [MainThread]:   client_id: None
+[0m14:18:37.730868 [info ] [MainThread]:   token_uri: None
+[0m14:18:37.731160 [info ] [MainThread]:   compute_region: None
+[0m14:18:37.731451 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:18:37.731745 [info ] [MainThread]:   gcs_bucket: None
+[0m14:18:37.732030 [info ] [MainThread]:   dataproc_batch: None
+[0m14:18:37.732569 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:18:38.315451 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:18:38.315834 [debug] [MainThread]: On debug: select 1 as id
+[0m14:18:38.316148 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:18:52.899938 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-taxi-data-pipeline&j=bq:US:3105fe97-5e79-4446-a006-b1632926437d&page=queryresults
+[0m14:18:52.904583 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:18:52.906466 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:18:52.907431 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml> not found
+
+[0m14:18:52.908163 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  The project nyc-taxi-data-pipeline has not enabled BigQuery.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:18:52.909823 [debug] [MainThread]: Command `dbt debug` failed at 14:18:52.909555 after 28.11 seconds
+[0m14:18:52.910389 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:18:52.910948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F62E7A2060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F62E7CDA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F62E68F790>]}
+[0m14:18:52.911527 [debug] [MainThread]: Flushing usage events
+[0m14:18:54.288693 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:22:12.945705 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002203DFD67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002203ACB34D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002203F393C50>]}
+
+
+============================== 14:22:12.954619 | 77a7dbcd-b35b-4ba0-bef7-3bcacf9369e2 ==============================
+[0m14:22:12.954619 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:22:12.955539 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:22:13.008920 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:22:13.009613 [info ] [MainThread]: python version: 3.13.14
+[0m14:22:13.010415 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:22:13.011267 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:22:23.859666 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:22:23.860232 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:22:23.860598 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:22:23.861144 [info ] [MainThread]: adapter type: bigquery
+[0m14:22:23.861530 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:22:23.862017 [info ] [MainThread]: Configuration:
+[0m14:22:23.862434 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:22:23.862892 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:22:23.863274 [info ] [MainThread]: Required dependencies:
+[0m14:22:23.863624 [debug] [MainThread]: Executing "git --help"
+[0m14:22:24.886813 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:22:24.887576 [debug] [MainThread]: STDERR: "b''"
+[0m14:22:24.888062 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:22:24.888623 [info ] [MainThread]: Connection:
+[0m14:22:24.889335 [info ] [MainThread]:   method: oauth
+[0m14:22:24.890074 [info ] [MainThread]:   database: nyc-taxi-data-pipeline
+[0m14:22:24.890827 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline
+[0m14:22:24.891865 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:22:24.892948 [info ] [MainThread]:   location: US
+[0m14:22:24.893925 [info ] [MainThread]:   priority: interactive
+[0m14:22:24.894586 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:22:24.895064 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:22:24.895608 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:22:24.895984 [info ] [MainThread]:   job_retries: 1
+[0m14:22:24.896332 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:22:24.896695 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:22:24.897122 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:22:24.897458 [info ] [MainThread]:   client_id: None
+[0m14:22:24.897905 [info ] [MainThread]:   token_uri: None
+[0m14:22:24.898322 [info ] [MainThread]:   compute_region: None
+[0m14:22:24.898657 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:22:24.899085 [info ] [MainThread]:   gcs_bucket: None
+[0m14:22:24.899416 [info ] [MainThread]:   dataproc_batch: None
+[0m14:22:24.900284 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:22:25.498615 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:22:25.499147 [debug] [MainThread]: On debug: select 1 as id
+[0m14:22:25.499900 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:22:39.076827 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-taxi-data-pipeline&j=bq:US:a2224add-3c3f-410c-91e3-cc99ab08d397&page=queryresults
+[0m14:22:39.079109 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:22:39.080015 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:22:39.080726 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml> not found
+
+[0m14:22:39.081570 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  The project nyc-taxi-data-pipeline has not enabled BigQuery.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:22:39.083099 [debug] [MainThread]: Command `dbt debug` failed at 14:22:39.082937 after 27.52 seconds
+[0m14:22:39.083497 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:22:39.083885 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022051C62060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022051C8DA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022051B4F790>]}
+[0m14:22:39.084306 [debug] [MainThread]: Flushing usage events
+[0m14:22:40.366312 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:25:07.918681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3EF6367B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3EC3134D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3F0A07C50>]}
+
+
+============================== 14:25:07.929921 | 00544da6-e5b1-4140-8109-2ad4536951ec ==============================
+[0m14:25:07.929921 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:25:07.931904 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:25:08.021388 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:25:08.022168 [info ] [MainThread]: python version: 3.13.14
+[0m14:25:08.022920 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:25:08.023507 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:25:19.063514 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:25:19.064198 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:25:19.064980 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:25:19.065496 [info ] [MainThread]: adapter type: bigquery
+[0m14:25:19.066032 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:25:19.066674 [info ] [MainThread]: Configuration:
+[0m14:25:19.067237 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:25:19.067901 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:25:19.068551 [info ] [MainThread]: Required dependencies:
+[0m14:25:19.069008 [debug] [MainThread]: Executing "git --help"
+[0m14:25:20.178614 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:25:20.179213 [debug] [MainThread]: STDERR: "b''"
+[0m14:25:20.179728 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:25:20.180426 [info ] [MainThread]: Connection:
+[0m14:25:20.180915 [info ] [MainThread]:   method: oauth
+[0m14:25:20.181643 [info ] [MainThread]:   database: nyc-taxi-data-pipeline
+[0m14:25:20.182506 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline
+[0m14:25:20.183602 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:25:20.184564 [info ] [MainThread]:   location: US
+[0m14:25:20.185164 [info ] [MainThread]:   priority: interactive
+[0m14:25:20.185727 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:25:20.186146 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:25:20.186564 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:25:20.186965 [info ] [MainThread]:   job_retries: 1
+[0m14:25:20.187345 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:25:20.187716 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:25:20.188088 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:25:20.188526 [info ] [MainThread]:   client_id: None
+[0m14:25:20.188918 [info ] [MainThread]:   token_uri: None
+[0m14:25:20.189294 [info ] [MainThread]:   compute_region: None
+[0m14:25:20.189679 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:25:20.190112 [info ] [MainThread]:   gcs_bucket: None
+[0m14:25:20.190501 [info ] [MainThread]:   dataproc_batch: None
+[0m14:25:20.191356 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:25:20.749098 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:25:20.749515 [debug] [MainThread]: On debug: select 1 as id
+[0m14:25:20.749886 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:25:34.355295 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-taxi-data-pipeline&j=bq:US:ec20e654-473b-4724-a485-cdfb9277a7da&page=queryresults
+[0m14:25:34.359371 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:25:34.361056 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:25:34.362612 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml> not found
+
+[0m14:25:34.363934 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  The project nyc-taxi-data-pipeline has not enabled BigQuery.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:25:34.366705 [debug] [MainThread]: Command `dbt debug` failed at 14:25:34.366337 after 28.04 seconds
+[0m14:25:34.367573 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:25:34.368498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A383332060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A38335DA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A38321F790>]}
+[0m14:25:34.369555 [debug] [MainThread]: Flushing usage events
+[0m14:25:35.655057 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:27:43.594277 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E45EBD67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E45B8B34D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E45FF97C50>]}
+
+
+============================== 14:27:43.603320 | 85e31392-b454-4dd5-8290-88f820dceccd ==============================
+[0m14:27:43.603320 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:27:43.604227 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:27:43.664329 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:27:43.665151 [info ] [MainThread]: python version: 3.13.14
+[0m14:27:43.665859 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:27:43.666525 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:27:56.126212 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:27:56.127041 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:27:56.127504 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:27:56.127996 [info ] [MainThread]: adapter type: bigquery
+[0m14:27:56.128622 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:27:56.129374 [info ] [MainThread]: Configuration:
+[0m14:27:56.130360 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:27:56.130956 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:27:56.131547 [info ] [MainThread]: Required dependencies:
+[0m14:27:56.132106 [debug] [MainThread]: Executing "git --help"
+[0m14:27:57.286931 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:27:57.287811 [debug] [MainThread]: STDERR: "b''"
+[0m14:27:57.288396 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:27:57.289012 [info ] [MainThread]: Connection:
+[0m14:27:57.290003 [info ] [MainThread]:   method: oauth
+[0m14:27:57.290808 [info ] [MainThread]:   database: nyc-taxi-data-pipeline
+[0m14:27:57.291683 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline
+[0m14:27:57.292709 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:27:57.293382 [info ] [MainThread]:   location: US
+[0m14:27:57.294217 [info ] [MainThread]:   priority: interactive
+[0m14:27:57.295100 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:27:57.295675 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:27:57.296083 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:27:57.296517 [info ] [MainThread]:   job_retries: 1
+[0m14:27:57.297053 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:27:57.297598 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:27:57.298215 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:27:57.298717 [info ] [MainThread]:   client_id: None
+[0m14:27:57.299223 [info ] [MainThread]:   token_uri: None
+[0m14:27:57.299662 [info ] [MainThread]:   compute_region: None
+[0m14:27:57.300100 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:27:57.300852 [info ] [MainThread]:   gcs_bucket: None
+[0m14:27:57.301681 [info ] [MainThread]:   dataproc_batch: None
+[0m14:27:57.302764 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:27:57.902031 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:27:57.902411 [debug] [MainThread]: On debug: select 1 as id
+[0m14:27:57.902903 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:28:12.318198 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-taxi-data-pipeline&j=bq:US:0ae318ac-830c-4cef-97e2-cfd79777a85b&page=queryresults
+[0m14:28:12.322653 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m14:28:12.324395 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:28:12.325644 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml> not found
+
+[0m14:28:12.326845 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  The project nyc-taxi-data-pipeline has not enabled BigQuery.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m14:28:12.329675 [debug] [MainThread]: Command `dbt debug` failed at 14:28:12.329242 after 30.15 seconds
+[0m14:28:12.330647 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:28:12.331599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E472892060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E4728BDA30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002E47277F790>]}
+[0m14:28:12.332593 [debug] [MainThread]: Flushing usage events
+[0m14:28:13.644808 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:29:31.982622 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027295DE67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027292AC34D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272971B7C50>]}
+
+
+============================== 14:29:31.990360 | 28aff5c9-e917-482c-aff7-7f5d0a6fe32e ==============================
+[0m14:29:31.990360 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:29:31.991076 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:29:32.041455 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:29:32.041956 [info ] [MainThread]: python version: 3.13.14
+[0m14:29:32.042523 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:29:32.043052 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:29:42.612846 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:29:42.613501 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:29:42.613933 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:29:42.614619 [info ] [MainThread]: adapter type: bigquery
+[0m14:29:42.615185 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:29:42.615771 [info ] [MainThread]: Configuration:
+[0m14:29:42.616612 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:29:42.616990 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:29:42.617433 [info ] [MainThread]: Required dependencies:
+[0m14:29:42.617964 [debug] [MainThread]: Executing "git --help"
+[0m14:29:43.696002 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:29:43.697022 [debug] [MainThread]: STDERR: "b''"
+[0m14:29:43.697483 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:29:43.698010 [info ] [MainThread]: Connection:
+[0m14:29:43.698494 [info ] [MainThread]:   method: oauth
+[0m14:29:43.699123 [info ] [MainThread]:   database: nyc-taxi-data-pipeline-498908
+[0m14:29:43.699636 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline-498908
+[0m14:29:43.700285 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:29:43.701050 [info ] [MainThread]:   location: US
+[0m14:29:43.701677 [info ] [MainThread]:   priority: interactive
+[0m14:29:43.702381 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:29:43.703003 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:29:43.703636 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:29:43.704097 [info ] [MainThread]:   job_retries: 1
+[0m14:29:43.704653 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:29:43.705103 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:29:43.705511 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:29:43.705903 [info ] [MainThread]:   client_id: None
+[0m14:29:43.706341 [info ] [MainThread]:   token_uri: None
+[0m14:29:43.706794 [info ] [MainThread]:   compute_region: None
+[0m14:29:43.707214 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:29:43.707791 [info ] [MainThread]:   gcs_bucket: None
+[0m14:29:43.708328 [info ] [MainThread]:   dataproc_batch: None
+[0m14:29:43.709207 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:29:44.290155 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:29:44.290838 [debug] [MainThread]: On debug: select 1 as id
+[0m14:29:44.291308 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:29:59.236381 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-taxi-data-pipeline-498908&j=bq:US:f02b14a5-be48-4c19-a590-40485ad7749d&page=queryresults
+[0m14:29:59.716001 [debug] [MainThread]: SQL status: OK in 0.478 seconds
+[0m14:30:05.687259 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:30:05.689002 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:30:05.690588 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml> not found
+
+[0m14:30:05.693738 [debug] [MainThread]: Command `dbt debug` failed at 14:30:05.693361 after 35.10 seconds
+[0m14:30:05.694823 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:30:05.696166 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272A9A622C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272A9A8DC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000272A994F460>]}
+[0m14:30:05.697511 [debug] [MainThread]: Flushing usage events
+[0m14:30:06.999795 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:33:38.396787 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C80F6967B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C80C3734D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C810A57C50>]}
+
+
+============================== 14:33:38.409091 | 6c2098af-74d6-4ab6-8e20-11695684a421 ==============================
+[0m14:33:38.409091 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:33:38.410082 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:33:38.482053 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:33:38.483301 [info ] [MainThread]: python version: 3.13.14
+[0m14:33:38.484485 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:33:38.485760 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:33:50.249746 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:33:50.250637 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:33:50.251310 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:33:50.251767 [info ] [MainThread]: adapter type: bigquery
+[0m14:33:50.252179 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:33:50.252803 [info ] [MainThread]: Configuration:
+[0m14:33:50.253432 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:33:50.254311 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:33:50.254829 [info ] [MainThread]: Required dependencies:
+[0m14:33:50.255699 [debug] [MainThread]: Executing "git --help"
+[0m14:33:51.593196 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:33:51.593932 [debug] [MainThread]: STDERR: "b''"
+[0m14:33:51.594361 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:33:51.594976 [info ] [MainThread]: Connection:
+[0m14:33:51.595796 [info ] [MainThread]:   method: oauth
+[0m14:33:51.596392 [info ] [MainThread]:   database: nyc-taxi-data-pipeline-498908
+[0m14:33:51.597218 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline-498908
+[0m14:33:51.597888 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:33:51.598619 [info ] [MainThread]:   location: US
+[0m14:33:51.599231 [info ] [MainThread]:   priority: interactive
+[0m14:33:51.599746 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:33:51.600342 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:33:51.600778 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:33:51.601306 [info ] [MainThread]:   job_retries: 1
+[0m14:33:51.601928 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:33:51.602430 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:33:51.602887 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:33:51.603313 [info ] [MainThread]:   client_id: None
+[0m14:33:51.603719 [info ] [MainThread]:   token_uri: None
+[0m14:33:51.604093 [info ] [MainThread]:   compute_region: None
+[0m14:33:51.604481 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:33:51.604869 [info ] [MainThread]:   gcs_bucket: None
+[0m14:33:51.605267 [info ] [MainThread]:   dataproc_batch: None
+[0m14:33:51.606004 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:33:52.266871 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:33:52.267392 [debug] [MainThread]: On debug: select 1 as id
+[0m14:33:52.267845 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:34:05.490995 [error] [MainThread]: Encountered an error:
+
+[0m14:34:05.826126 [error] [MainThread]: Traceback (most recent call last):
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\cli\requires.py", line 182, in wrapper
+    result, success = func(*args, **kwargs)
+                      ~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\cli\requires.py", line 128, in wrapper
+    return func(*args, **kwargs)
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\cli\main.py", line 425, in debug
+    results = task.run()
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\task\debug.py", line 144, in run
+    connection_status = self.test_connection()
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\task\debug.py", line 465, in test_connection
+    connection_result = self.attempt_connection(self.profile)
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\task\debug.py", line 443, in attempt_connection
+    adapter.debug_query()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\adapters\bigquery\impl.py", line 1292, in debug_query
+    self.execute("select 1 as id")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt_common\record.py", line 538, in record_replay_wrapper
+    return func_to_record(*call_args, **kwargs)
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\adapters\base\impl.py", line 508, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch, limit=limit)
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\adapters\bigquery\connections.py", line 309, in execute
+    query_job, iterator = self.raw_execute(sql, limit=limit)
+                          ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\adapters\bigquery\connections.py", line 280, in raw_execute
+    return retry(_execute_with_retry)()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\adapters\bigquery\connections.py", line 271, in _execute_with_retry
+    return self._query_and_results(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        conn,
+        ^^^^^
+    ...<3 lines>...
+        limit=limit,
+        ^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\dbt\adapters\bigquery\connections.py", line 599, in _query_and_results
+    query_job = client.query(
+        query=sql,
+    ...<3 lines>...
+        timeout=self._retry.create_job_creation_timeout(),
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\cloud\bigquery\client.py", line 3590, in query
+    return _job_helpers.query_jobs_insert(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<8 lines>...
+        job_retry,
+        ^^^^^^^^^^
+    )
+    ^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\cloud\bigquery\_job_helpers.py", line 205, in query_jobs_insert
+    future = do_query()
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\cloud\bigquery\_job_helpers.py", line 151, in do_query
+    query_job._begin(retry=retry, timeout=timeout)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\cloud\bigquery\job\query.py", line 1489, in _begin
+    super(QueryJob, self)._begin(client=client, retry=retry, timeout=timeout)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\cloud\bigquery\job\base.py", line 825, in _begin
+    api_response = client._call_api(
+        retry,
+    ...<6 lines>...
+        timeout=timeout,
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\cloud\bigquery\client.py", line 861, in _call_api
+    return call()
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\api_core\retry\retry_unary.py", line 294, in retry_wrapped_func
+    return retry_target(
+        target,
+    ...<3 lines>...
+        on_error=on_error,
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\api_core\retry\retry_unary.py", line 147, in retry_target
+    result = target()
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\cloud\_http\__init__.py", line 482, in api_request
+    response = self._make_request(
+        method=method,
+    ...<6 lines>...
+        extra_api_info=extra_api_info,
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\cloud\_http\__init__.py", line 341, in _make_request
+    return self._do_request(
+           ~~~~~~~~~~~~~~~~^
+        method, url, headers, data, target_object, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\cloud\_http\__init__.py", line 379, in _do_request
+    return self.http.request(
+           ~~~~~~~~~~~~~~~~~^
+        url=url, method=method, headers=headers, data=data, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\google\auth\transport\requests.py", line 543, in request
+    response = super(AuthorizedSession, self).request(
+        method,
+    ...<4 lines>...
+        **kwargs
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\urllib3\connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Lib\site-packages\urllib3\util\ssl_.py", line 411, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+[0m14:34:05.828424 [debug] [MainThread]: Command `dbt debug` failed at 14:34:05.828149 after 28.88 seconds
+[0m14:34:05.828922 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:34:05.829402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C823313490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C82333DC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C8231FF790>]}
+[0m14:34:05.830103 [debug] [MainThread]: Flushing usage events
+[0m14:34:07.107321 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:34:19.690429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A006E67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A7D3234D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A01AA7C50>]}
+
+
+============================== 14:34:19.698062 | ca669200-6fcd-4c93-8c6c-3a59f53f0021 ==============================
+[0m14:34:19.698062 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:34:19.698813 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:34:19.752977 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:34:19.753574 [info ] [MainThread]: python version: 3.13.14
+[0m14:34:19.754110 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:34:19.754698 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:34:30.100625 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:34:30.101454 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:34:30.102239 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:34:30.102754 [info ] [MainThread]: adapter type: bigquery
+[0m14:34:30.103212 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:34:30.103818 [info ] [MainThread]: Configuration:
+[0m14:34:30.104416 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:34:30.104986 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:34:30.105482 [info ] [MainThread]: Required dependencies:
+[0m14:34:30.105910 [debug] [MainThread]: Executing "git --help"
+[0m14:34:31.078305 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:34:31.078978 [debug] [MainThread]: STDERR: "b''"
+[0m14:34:31.079451 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:34:31.080072 [info ] [MainThread]: Connection:
+[0m14:34:31.080710 [info ] [MainThread]:   method: oauth
+[0m14:34:31.081178 [info ] [MainThread]:   database: nyc-taxi-data-pipeline-498908
+[0m14:34:31.081640 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline-498908
+[0m14:34:31.082192 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:34:31.082849 [info ] [MainThread]:   location: US
+[0m14:34:31.083590 [info ] [MainThread]:   priority: interactive
+[0m14:34:31.084144 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:34:31.084508 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:34:31.085102 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:34:31.085527 [info ] [MainThread]:   job_retries: 1
+[0m14:34:31.086068 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:34:31.086468 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:34:31.086826 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:34:31.087416 [info ] [MainThread]:   client_id: None
+[0m14:34:31.087925 [info ] [MainThread]:   token_uri: None
+[0m14:34:31.088499 [info ] [MainThread]:   compute_region: None
+[0m14:34:31.088908 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:34:31.089348 [info ] [MainThread]:   gcs_bucket: None
+[0m14:34:31.089788 [info ] [MainThread]:   dataproc_batch: None
+[0m14:34:31.090531 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:34:31.609852 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:34:31.610493 [debug] [MainThread]: On debug: select 1 as id
+[0m14:34:31.611092 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:34:45.772478 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-taxi-data-pipeline-498908&j=bq:US:69ae8329-c35e-4a4e-ac09-a6ea524d52d9&page=queryresults
+[0m14:34:46.196319 [debug] [MainThread]: SQL status: OK in 0.423 seconds
+[0m14:34:47.339185 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:34:47.340050 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:34:47.340947 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml> not found
+
+[0m14:34:47.342451 [debug] [MainThread]: Command `dbt debug` failed at 14:34:47.342266 after 29.00 seconds
+[0m14:34:47.342866 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:34:47.343389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A143622C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A1438DC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022A1424F460>]}
+[0m14:34:47.344160 [debug] [MainThread]: Flushing usage events
+[0m14:34:48.703936 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:35:24.492948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020927D667B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020924A534D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020929137C50>]}
+
+
+============================== 14:35:24.500709 | 9728c9e1-e8f6-4dbd-950c-43617c7f3b98 ==============================
+[0m14:35:24.500709 [info ] [MainThread]: Running with dbt=1.11.11
+[0m14:35:24.501614 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'D:\\Utilisateurs\\niaina5\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m14:35:24.557460 [info ] [MainThread]: dbt version: 1.11.11
+[0m14:35:24.558171 [info ] [MainThread]: python version: 3.13.14
+[0m14:35:24.558817 [info ] [MainThread]: python path: D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\.venv3\Scripts\python.exe
+[0m14:35:24.559354 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m14:35:35.099669 [info ] [MainThread]: Using profiles dir at D:\Utilisateurs\niaina5\.dbt
+[0m14:35:35.100267 [info ] [MainThread]: Using profiles.yml file at D:\Utilisateurs\niaina5\.dbt\profiles.yml
+[0m14:35:35.100790 [info ] [MainThread]: Using dbt_project.yml file at D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml
+[0m14:35:35.101293 [info ] [MainThread]: adapter type: bigquery
+[0m14:35:35.101627 [info ] [MainThread]: adapter version: 1.11.1
+[0m14:35:35.102241 [info ] [MainThread]: Configuration:
+[0m14:35:35.102875 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:35:35.103382 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:35:35.103974 [info ] [MainThread]: Required dependencies:
+[0m14:35:35.104445 [debug] [MainThread]: Executing "git --help"
+[0m14:35:36.078975 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m14:35:36.079651 [debug] [MainThread]: STDERR: "b''"
+[0m14:35:36.080049 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m14:35:36.080679 [info ] [MainThread]: Connection:
+[0m14:35:36.081374 [info ] [MainThread]:   method: oauth
+[0m14:35:36.081944 [info ] [MainThread]:   database: nyc-taxi-data-pipeline-498908
+[0m14:35:36.082440 [info ] [MainThread]:   execution_project: nyc-taxi-data-pipeline-498908
+[0m14:35:36.082978 [info ] [MainThread]:   schema: taxi_analytics
+[0m14:35:36.083495 [info ] [MainThread]:   location: US
+[0m14:35:36.084336 [info ] [MainThread]:   priority: interactive
+[0m14:35:36.084959 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m14:35:36.085640 [info ] [MainThread]:   impersonate_service_account: None
+[0m14:35:36.086336 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m14:35:36.086938 [info ] [MainThread]:   job_retries: 1
+[0m14:35:36.087723 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m14:35:36.088528 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m14:35:36.089146 [info ] [MainThread]:   timeout_seconds: 300
+[0m14:35:36.089641 [info ] [MainThread]:   client_id: None
+[0m14:35:36.090307 [info ] [MainThread]:   token_uri: None
+[0m14:35:36.090848 [info ] [MainThread]:   compute_region: None
+[0m14:35:36.091369 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m14:35:36.092007 [info ] [MainThread]:   gcs_bucket: None
+[0m14:35:36.092605 [info ] [MainThread]:   dataproc_batch: None
+[0m14:35:36.093546 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m14:35:36.597702 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m14:35:36.598077 [debug] [MainThread]: On debug: select 1 as id
+[0m14:35:36.598482 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:35:49.657233 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=nyc-taxi-data-pipeline-498908&j=bq:US:543b2fa0-0d51-4cfe-b5f5-40ee75d356d5&page=queryresults
+[0m14:35:50.132575 [debug] [MainThread]: SQL status: OK in 0.474 seconds
+[0m14:35:51.597639 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:35:51.599119 [info ] [MainThread]: [31m1 check failed:[0m
+[0m14:35:51.600438 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <D:\Utilisateurs\niaina5\Documents\data\nyc-taxi-pipeline\dbt_project.yml> not found
+
+[0m14:35:51.603679 [debug] [MainThread]: Command `dbt debug` failed at 14:35:51.603249 after 28.47 seconds
+[0m14:35:51.604817 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:35:51.605849 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002093B9F62C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002093BA1DC70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002093B8DF460>]}
+[0m14:35:51.607082 [debug] [MainThread]: Flushing usage events
+[0m14:35:52.861565 [debug] [MainThread]: An error was encountered while trying to flush usage events

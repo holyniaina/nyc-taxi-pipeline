@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: taxi_analytics
+    database: project-eaaf97d9-b411-4c00-83c   # your GCP project ID
+    schema: taxi_analytics
+
+    tables:
+      - name: bronze_trips
