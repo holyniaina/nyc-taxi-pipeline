@@ -1,5 +1,5 @@
-🚖 NYC Taxi Data Pipeline (dbt + BigQuery) </br>
-📌 Project Overview </br>
+<h1>🚖 NYC Taxi Data Pipeline (dbt + BigQuery) </h1>
+<h3>📌 Project Overview </h3>
 <p>
 This project builds an end-to-end modern data pipeline using Google BigQuery and dbt (Data Build Tool) to process and transform NYC Taxi trip data.
 </p>
@@ -12,7 +12,8 @@ Data modeling (bronze → staging → marts)
 Data quality checks
 Analytical-ready tables for reporting
 </p>
-🏗️ Architecture </br>
+
+<h3>🏗️ Architecture </h3>
 Raw Data (BigQuery / External Source) </br>
         ↓ </br>
 Bronze Layer (Raw ingestion tables) </br>
@@ -23,14 +24,14 @@ Mart Layer (analytics-ready tables) </br>
         ↓ </br>
 BI / Reporting (optional Looker Studio) </br>
 
-⚙️ Tech Stack </br>
+<h3>⚙️ Tech Stack </h3>
 Google BigQuery → Data warehouse </br>
 dbt (Data Build Tool) → Data transformations </br>
 SQL → Data modeling logic </br>
 Git/GitHub → Version control </br>
 Cloud IAM / OAuth → Authentication </br>
 
-📂 Project Structure
+<h3>📂 Project Structure</h3>h3>
 <pre>
 nyc-taxi-pipeline/
 │
