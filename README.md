@@ -29,6 +29,7 @@ Git/GitHub → Version control
 Cloud IAM / OAuth → Authentication
 
 📂 Project Structure
+<pre>
 nyc-taxi-pipeline/
 │
 ├── models/
@@ -41,3 +42,4 @@ nyc-taxi-pipeline/
 ├── dbt_project.yml    # dbt configuration
 ├── sources.yml        # Source definitions
 ├── README.md
+</pre>
